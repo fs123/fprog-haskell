@@ -1,0 +1,6 @@
+Was ist das für eine 'Struktur'?
+  23 :: Num a => a
+
+:t show gibt 'show :: Show a => a -> String' zurück
+  warum ist das 'a => a' nötigt, hier macht es bspw. Sinn: 'abs :: Num a => a -> a'
+  --> Für was ist das => ?! Typenkonvertierung?! 
