@@ -1,0 +1,2 @@
+-- A binding is a (calculated) value binded to a name
+-- visibility: in the same function
