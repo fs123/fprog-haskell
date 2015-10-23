@@ -11,9 +11,9 @@ compareA x y = if x == y then
 -- compare with Guards
 compareB :: (Ord a) => a -> a -> Ordering
 compareB x y
-         | x == y  = EQ
-         | x > y   = GT
-         | x < y   = LT
+         | x == y    = EQ
+         | x > y     = GT
+         | otherwise = LT
 
 -- compare with Case
 compareC :: (Ord a) => a -> a -> Ordering
