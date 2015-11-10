@@ -17,4 +17,4 @@ sayNumber :: Int -> String -> String
 sayNumber 0 s = "null as value: " ++ s
 sayNumber 1 s = "One as value: " ++ s
 sayNumber 2 s = "Two as value: " ++ s
-sayNumber n s = n ++ " as value: " ++ sEx
+sayNumber n s = n ++ " as value: " ++ s
