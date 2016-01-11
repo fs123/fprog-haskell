@@ -5,7 +5,7 @@ data BookInfo = Book Int String
 --   |- Type Constructor
 --              |- Value Constructor
 --                   |-  |- Components
---                              |- Deriving Clause
+--              |- Deriving Clause
 -- The Type Constructor defines the name of the new type
 -- The Value Constructor is used to create a value of this type
 -- The Components define the fields' types

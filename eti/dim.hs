@@ -1,4 +1,3 @@
--- THEORETISCHE INFORMATIK: Ackermannfunktion, 1926 von Wilhelm Ackermann gefundene
 xxx :: (Int, Int) -> Int
 xxx (x, y)
       | (x == 0 && y >= 0)  = y+1
